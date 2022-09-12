@@ -1,0 +1,16 @@
+{
+    "name": "gadev/mbbank",
+    "description": "API MBBANK",
+    "autoload": {
+        "psr-4": {
+            "Gadev\\Mbbank\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nguyễn Tiến Dũng",
+            "email": "1stnguyendung@gmail.com"
+        }
+    ],
+    "require": {}
+}
