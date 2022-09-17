@@ -5,12 +5,16 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Gadev\\Mbbank\\": "src/"
+            "GaDev\\Mbbank\\": "src/"
         }
     },
     "authors": [{
         "name": "Nguyễn Tiến Dũng",
         "email": "1stnguyendung@gmail.com"
     }],
-    "require": {}
+    "require": {
+        "ext-bcmath": "*",
+        "ext-curl": "*",
+        "ext-openssl": "*"
+    }
 }
